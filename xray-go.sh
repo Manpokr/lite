@@ -294,7 +294,7 @@ systemctl restart xray.service
 systemctl enable xray.service
 
 cd /usr/bin
-wget -O xray-menu "https://raw.githubusercontent.com/Iansoftware/Script-IANVPN/main/xray-menu.sh"
+wget -O xray-menu "https://raw.githubusercontent.com/Manpokr/lite/main/xray-menu.sh"
 chmod +x xray-menu
 cd
 systemctl daemon-reload
