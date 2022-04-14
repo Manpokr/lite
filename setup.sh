@@ -89,25 +89,25 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "$green  ISSUE CERT & Install TROJAN GFW       $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget https://raw.githubusercontent.com/lite/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/Manpokr/lite/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #Instal Xray
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install XRAY              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget https://raw.githubusercontent.com/lite/main/xray-go.sh && chmod +x xray-go.sh && screen -S xray-go ./xray-go.sh
+wget https://raw.githubusercontent.com/Manpokr/lite/main/xray-go.sh && chmod +x xray-go.sh && screen -S xray-go ./xray-go.sh
 #Instal Xray
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green           Install V2RAY              $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget https://raw.githubusercontent.com/lite/main/v2ray-go.sh && chmod +x v2ray-go.sh && screen -S v2ray-go ./v2ray-go.sh
+wget https://raw.githubusercontent.com/Manpokr/lite/main/v2ray-go.sh && chmod +x v2ray-go.sh && screen -S v2ray-go ./v2ray-go.sh
 #set backup
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green            SET BACKUP               $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 2
-wget https://raw.githubusercontent.com/lite/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/Manpokr/lite/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 rm -f /root/ins-vt.sh
 rm -f /root/set-br.sh
@@ -130,7 +130,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://raw.githubusercontent.com/lite/main/set.sh"
+wget -O /etc/set.sh "https://raw.githubusercontent.com/Manpokr/lite/main/set.sh"
 chmod +x /etc/set.sh
 history -c
 clear
