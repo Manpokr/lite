@@ -8,6 +8,7 @@ clear
 echo -e "${Info} XRAY CORE VPS AutoScript by IANVPN"
 # Detect public IPv4 address and pre-fill for the user
 # Domain 
+apt install unzip
 domain=$(cat /etc/rare/xray/domain)
 # Uuid Service
 uuid=$(cat /proc/sys/kernel/random/uuid)
